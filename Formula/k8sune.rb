@@ -1,9 +1,18 @@
 class K8sune < Formula
-  desc "K8sune description"
+  desc "Modern and integrated desktop controller for Kubernetes"
   homepage "https://github.com/nanna7077/k8sune"
-  url "https://github.com/nanna7077/k8sune/releases/download/v0.0.0a-buildtest13/k8sune-v0.0.0a-buildtest13.tar.gz"
-  sha256 "fbd18abd7dd28d555f280e0eeab12b22b4c1085b10fab25a3c75c9a4cec35d20"
+  version "v0.0.0a-buildtest13"
   license "MPL-2.0"
+
+  on_macos do
+    url "https://github.com/nanna7077/k8sune/releases/download/v0.0.0a-buildtest13/k8sune-macos-v0.0.0a-buildtest13.tar.gz"
+    sha256 ""
+  end
+
+  on_linux do
+    url "https://github.com/nanna7077/k8sune/releases/download/v0.0.0a-buildtest13/k8sune-linux-v0.0.0a-buildtest13.tar.gz"
+    sha256 ""
+  end
 
   def install
     bin.install "k8sune"
