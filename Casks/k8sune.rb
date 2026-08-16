@@ -1,8 +1,8 @@
 cask "k8sune" do
-  version "0.0.2b-test6"
-  sha256 "7a459e2d1c06cdc8452cf7a53af84a7a8b837fa79d67303bc0df9823f2c7799b"
+  version "0.0.2b-test7"
+  sha256 "7a181c35be42823c6f55b0d41d2d34a73eb1c457a5a8e5c45a73a069d25441ef"
 
-  url "https://github.com/nanna7077/k8sune/releases/download/v0.0.2b-test6/k8sune_0.0.2-beta.test6_universal.dmg"
+  url "https://github.com/nanna7077/k8sune/releases/download/v0.0.2b-test7/k8sune_0.0.2-beta.test7_universal.dmg"
   name "k8sune"
   desc "Modern and integrated desktop controller for Kubernetes"
   homepage "https://github.com/nanna7077/k8sune"
